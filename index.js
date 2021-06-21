@@ -48,7 +48,7 @@ $("#btn-2").on("click", function () {
     if (playerScore2 >= 30) {
         $("#btn-1").css("visibility", "hidden");
         $("#btn-2").css("visibility", "hidden");
-        $("#winner").text("Player 1 win!");
+        $("#winner").text("Player 2 win!");
     } else if (playerScore2 === 3) {
         playerScore2 = 16;
     } else if (playerScore2 === 5) {
